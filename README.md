@@ -166,6 +166,21 @@ next();
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/utils/try-catch`][@stdlib/utils/try-catch]: if a function does not throw, return the function return value; otherwise, return `y`.
+-   [`@stdlib/utils/async/try-then`][@stdlib/utils/async/try-then]: if a function does not return an error, invoke a callback with the function result; otherwise, invoke a second function.
+
+</section>
+
+<!-- /.related -->
+
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 
@@ -222,6 +237,14 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-async-try-catch/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/utils/try-catch]: https://github.com/stdlib-js/utils-try-catch
+
+[@stdlib/utils/async/try-then]: https://github.com/stdlib-js/utils-async-try-then
+
+<!-- </related-links> -->
 
 </section>
 
