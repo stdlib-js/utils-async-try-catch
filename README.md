@@ -20,7 +20,7 @@ limitations under the License.
 
 # trycatchAsync
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > If a function does not return an error, invoke a callback with the function result; otherwise, invoke a callback with a value `y`.
 
@@ -174,8 +174,8 @@ next();
 
 ## See Also
 
--   [`@stdlib/utils/try-catch`][@stdlib/utils/try-catch]: if a function does not throw, return the function return value; otherwise, return `y`.
--   [`@stdlib/utils/async/try-then`][@stdlib/utils/async/try-then]: if a function does not return an error, invoke a callback with the function result; otherwise, invoke a second function.
+-   <span class="package-name">[`@stdlib/utils/try-catch`][@stdlib/utils/try-catch]</span><span class="delimiter">: </span><span class="description">if a function does not throw, return the function return value; otherwise, return `y`.</span>
+-   <span class="package-name">[`@stdlib/utils/async/try-then`][@stdlib/utils/async/try-then]</span><span class="delimiter">: </span><span class="description">if a function does not return an error, invoke a callback with the function result; otherwise, invoke a second function.</span>
 
 </section>
 
@@ -226,8 +226,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/utils-async-try-catch/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/utils-async-try-catch?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/utils-async-try-catch.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/utils-async-try-catch/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
