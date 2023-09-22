@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import trycatchAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-try-catch@esm/index.mjs';
+import trycatchAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-try-catch@v0.1.0-esm/index.mjs';
 ```
 
 #### trycatchAsync( x, y, done )
@@ -129,7 +129,7 @@ If the function `x` does not return a truthy `error` argument, the `error` argum
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import trycatchAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-try-catch@esm/index.mjs';
+import trycatchAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-try-catch@v0.1.0-esm/index.mjs';
 
 var i;
 
