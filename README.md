@@ -45,14 +45,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/utils-async-try-catch
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import trycatchAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-try-catch@deno/mod.js';
+var trycatchAsync = require( '@stdlib/utils-async-try-catch' );
 ```
 
 #### trycatchAsync( x, y, done )
@@ -60,7 +76,7 @@ import trycatchAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-try
 If a function `x` does not return an error, invokes a `done` callback with the function result; otherwise, invokes a `done` callback with a value `y`.
 
 ```javascript
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
+var randu = require( '@stdlib/random-base-randu' );
 
 function x( clbk ) {
     setTimeout( onTimeout, 0 );
@@ -123,8 +139,8 @@ If the function `x` does not return a truthy `error` argument, the `error` argum
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import trycatchAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-try-catch@deno/mod.js';
+var randu = require( '@stdlib/random-base-randu' );
+var trycatchAsync = require( '@stdlib/utils-async-try-catch' );
 
 var i;
 
@@ -193,7 +209,7 @@ next();
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -210,7 +226,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -255,9 +271,9 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/try-catch]: https://github.com/stdlib-js/utils-try-catch/tree/deno
+[@stdlib/utils/try-catch]: https://github.com/stdlib-js/utils-try-catch
 
-[@stdlib/utils/async/try-then]: https://github.com/stdlib-js/utils-async-try-then/tree/deno
+[@stdlib/utils/async/try-then]: https://github.com/stdlib-js/utils-async-try-then
 
 <!-- </related-links> -->
 
