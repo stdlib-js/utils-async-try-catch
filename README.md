@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import trycatchAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-try-catch@deno/mod.js';
+import trycatchAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-try-catch@v0.2.2-deno/mod.js';
 ```
 
 #### trycatchAsync( x, y, done )
@@ -124,7 +124,7 @@ If the function `x` does not return a truthy `error` argument, the `error` argum
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import trycatchAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-try-catch@deno/mod.js';
+import trycatchAsync from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-async-try-catch@v0.2.2-deno/mod.js';
 
 var i;
 
